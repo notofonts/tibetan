@@ -1,0 +1,10 @@
+buildVariable: true
+category:
+- SERIF
+familyName: Noto Serif Tibetan
+googleFonts: true
+includeSubsets:
+- from: Noto Serif
+  name: GF_Latin_Core
+sources:
+- NotoSerifTibetan.glyphs
