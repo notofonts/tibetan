@@ -1,11 +1,11 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf'] [code: single-directory]
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifTibetan/googlefonts/ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf'] [code: single-directory]
 </div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
 
 
@@ -14,209 +14,34 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[20] NotoSerifTibetan[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
-
-
-* 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
-
-
-* 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 1.5Mb; ideally it should be less than 1.0Mb [code: large-font]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 2.0Mb; ideally it should be less than 1.0Mb [code: large-font]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* parenleft (U+0028): X=314.0,Y=715.0 (should be at cap-height 714?)
-
-	* parenright (U+0029): X=32.0,Y=715.0 (should be at cap-height 714?)
-
-	* comma (U+002C): X=114.0,Y=1.0 (should be at baseline 0?)
-
-	* three (U+0033): X=334.5,Y=1.0 (should be at baseline 0?)
-
-	* five (U+0035): X=328.0,Y=0.5 (should be at baseline 0?)
-
-	* nine (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
-
-	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
-
-	* question (U+003F): X=137.0,Y=715.5 (should be at cap-height 714?)
-
-	* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?)
-
-	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?) 
-
-	* And 73 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* parenleft (U+0028): X=314.0,Y=715.0 (should be at cap-height 714?)
-
-	* parenright (U+0029): X=32.0,Y=715.0 (should be at cap-height 714?)
-
-	* comma (U+002C): X=114.0,Y=1.0 (should be at baseline 0?)
-
-	* three (U+0033): X=334.5,Y=1.0 (should be at baseline 0?)
-
-	* five (U+0035): X=328.0,Y=0.5 (should be at baseline 0?)
-
-	* nine (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
-
-	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
-
-	* question (U+003F): X=137.0,Y=715.5 (should be at cap-height 714?)
-
-	* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?)
-
-	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?) 
-
-	* And 73 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifTibetan-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifTibetan-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0F4A
-	* uni0FB40F71.3
-	* uni0FA40FB2.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F4B0FB3 and 1687 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F08
+	* uni0F16
+	* uni0F17
+	* uni0F18
+	* uni0F1D
+	* uni0F1E and 1687 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -253,13 +78,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -318,89 +136,36 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] NotoSerifTibetan-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
-
-
-* 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Noto Serif Tibetan" but got "Noto Serif Tibetan Bold". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Bold" [code: bad-familyname]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font style is "Bold" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0F4A
-	* uni0FB40F71.3
-	* uni0FA40FB2.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F4B0FB3 and 1627 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F08
+	* uni0F16
+	* uni0F17
+	* uni0F18
+	* uni0F1E
+	* uni0F2A and 1627 more.
 
 Use -F or --full-lists to disable shortening of long lists.
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Noto Serif Tibetan Bold' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -428,13 +193,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -497,49 +255,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifTibetan-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifTibetan-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0F4A
-	* uni0FB40F71.3
-	* uni0FA40FB2.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F59.3 and 1709 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F08
+	* uni0F0A
+	* uni0F16
+	* uni0F17
+	* uni0F18
+	* uni0F1D and 1709 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -576,13 +319,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -645,49 +381,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<98.0,125.0>--<97.0,645.0>> 
 
 	* And sterling (U+00A3): L<<441.0,341.0>--<283.0,342.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifTibetan-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifTibetan-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0F4A
-	* uni0FB40F71.3
-	* uni0FA40FB2.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F59.3 and 1659 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F04
+	* uni0F05
+	* uni0F06
+	* uni0F07
+	* uni0F08
+	* uni0F09 and 1659 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -724,13 +445,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -759,49 +473,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 43 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0F4A
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F59.3
-	* uni0F4B0FB3
-	* uni0F7B0F82.narrow and 1462 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F04
+	* uni0F05
+	* uni0F06
+	* uni0F07
+	* uni0F08
+	* uni0F09 and 1462 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -838,13 +537,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -861,49 +553,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni0FC6 (U+0FC6): B<<-341.5,-749.0>-<-348.0,-775.0>-<-361.0,-796.0>>/B<<-361.0,-796.0>-<-346.0,-781.0>-<-324.0,-741.0>> = 13.240519915187184 
 
 	* And uni0FC6 (U+0FC6): B<<-869.0,-741.0>-<-847.0,-780.0>-<-833.0,-795.0>>/B<<-833.0,-795.0>-<-846.0,-775.0>-<-852.0,-749.0>> = 10.001198433321333 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifTibetan-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F4A0F9A0F71
-	* uni0FB40F71.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F4B0FB3
-	* uni0F530FB20F71
-	* uni0F670FA3
-	* uni0F430FB20F71 and 919 more.
+	* uni0F06
+	* uni0F07
+	* uni0F0A
+	* uni0F15
+	* uni0F17
+	* uni0F2C
+	* uni0F2D
+	* uni0F2F
+	* uni0F30
+	* uni0F32 and 919 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -940,13 +617,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -999,49 +669,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* h (U+0068): L<<106.0,117.0>--<105.0,649.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F4A0F9A0F71
-	* uni0FB40F71.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F4B0FB3
-	* uni0F530FB20F71
-	* uni0F670FA3
-	* uni0F430FB20F71 and 1313 more.
+	* uni0F00
+	* uni0F02
+	* uni0F03
+	* uni0F17
+	* uni0F2C
+	* uni0F2D
+	* uni0F2F
+	* uni0F30
+	* uni0F32
+	* uni0F33 and 1313 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1071,13 +726,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1124,49 +772,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0FC6 (U+0FC6): B<<-348.5,-776.5>-<-354.0,-801.0>-<-366.0,-823.0>>/B<<-366.0,-823.0>-<-351.0,-806.0>-<-332.0,-769.0>> = 12.813205959037447 
 
 	* And uni0FC6 (U+0FC6): B<<-874.0,-769.0>-<-855.0,-805.0>-<-841.0,-821.0>>/B<<-841.0,-821.0>-<-852.0,-800.0>-<-857.5,-776.0>> = 13.539949801970977 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifTibetan-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0F530F9F0FB1
-	* uni0F9D.3
-	* uni0F4A0F9A0F71
-	* uni0FB40F71.3
-	* uni0F540FB60FB2
-	* uni0F530FB10F71
-	* uni0F630FA4
-	* uni0F4B0FB3
-	* uni0F530FB20F71
-	* uni0F670FA3 and 1317 more.
+	* uni0F00
+	* uni0F01
+	* uni0F02
+	* uni0F03
+	* uni0F07
+	* uni0F17
+	* uni0F1E
+	* uni0F2B
+	* uni0F2C
+	* uni0F2D and 1317 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1203,13 +836,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1264,44 +890,30 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<235.0,313.0>--<236.0,115.0>> 
 
 	* And sterling (U+00A3): L<<419.0,343.0>--<261.0,344.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifTibetan-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/slim-variable-ttf/NotoSerifTibetan[wght].ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0F19
-
-	- uni0F37
-
-	- uni0F35
-
-	- uni0F39 
-
-	- And uni0F18 [code: unattached-dotted-circle-marks]
+	- uni0F39 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0FBF
-	* uni0FDA
 	* uni0F3B
 	* uni0F3D
-	* uni0FBE and uni2638
+	* uni0F4A0FB70FB1
+	* uni0FBE
+	* uni0FBF
+	* uni0FDA and uni2638
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1336,13 +948,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1401,13 +1006,86 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>> 
 
 	* And exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
+
+	- uni0F39 [code: unattached-dotted-circle-marks]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
+
+
+* ⚠ **WARN** Font file is 2.0Mb; ideally it should be less than 1.0Mb [code: large-font]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
+
+
+* ⚠ **WARN** This variable font does not have an avar table. [code: missing-avar]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 uni0F71 (U+0F71), uni0F73 (U+0F73), uni0F76 (U+0F76), uni0F77 (U+0F77), uni0F78 (U+0F78), uni0F79 (U+0F79), uni0F81 (U+0F81), uni0F8E (U+0F8E), uni0F8F (U+0F8F), uni0FA9 (U+0FA9) and 3 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* parenleft (U+0028): X=314.0,Y=715.0 (should be at cap-height 714?)
+
+	* parenright (U+0029): X=32.0,Y=715.0 (should be at cap-height 714?)
+
+	* comma (U+002C): X=114.0,Y=1.0 (should be at baseline 0?)
+
+	* three (U+0033): X=334.5,Y=1.0 (should be at baseline 0?)
+
+	* five (U+0035): X=328.0,Y=0.5 (should be at baseline 0?)
+
+	* nine (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
+
+	* question (U+003F): X=137.0,Y=715.5 (should be at cap-height 714?)
+
+	* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?)
+
+	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?) 
+
+	* And 73 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 58 | 79 | 1246 | 77 | 975 | 0 |
-| 0% | 2% | 3% | 51% | 3% | 40% | 0% |
+| 3 | 33 | 66 | 1100 | 62 | 871 | 0 |
+| 0% | 2% | 3% | 52% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
