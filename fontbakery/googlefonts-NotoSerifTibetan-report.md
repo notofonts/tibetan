@@ -14,15 +14,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifTibetan-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifTibetan-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -136,15 +128,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSerifTibetan-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -255,15 +239,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifTibetan-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifTibetan-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -381,15 +357,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<98.0,125.0>--<97.0,645.0>> 
 
 	* And sterling (U+00A3): L<<441.0,341.0>--<283.0,342.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerifTibetan-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] NotoSerifTibetan-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -473,15 +441,7 @@ The following glyphs do not have the recommended number of contours:
 	* And 43 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSerifTibetan-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -553,15 +513,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0FC6 (U+0FC6): B<<-341.5,-749.0>-<-348.0,-775.0>-<-361.0,-796.0>>/B<<-361.0,-796.0>-<-346.0,-781.0>-<-324.0,-741.0>> = 13.240519915187184 
 
 	* And uni0FC6 (U+0FC6): B<<-869.0,-741.0>-<-847.0,-780.0>-<-833.0,-795.0>>/B<<-833.0,-795.0>-<-846.0,-775.0>-<-852.0,-749.0>> = 10.001198433321333 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -669,15 +621,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* h (U+0068): L<<106.0,117.0>--<105.0,649.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSerifTibetan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -772,15 +716,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0FC6 (U+0FC6): B<<-348.5,-776.5>-<-354.0,-801.0>-<-366.0,-823.0>>/B<<-366.0,-823.0>-<-351.0,-806.0>-<-332.0,-769.0>> = 12.813205959037447 
 
 	* And uni0FC6 (U+0FC6): B<<-874.0,-769.0>-<-855.0,-805.0>-<-841.0,-821.0>>/B<<-841.0,-821.0>-<-852.0,-800.0>-<-857.5,-776.0>> = 13.539949801970977 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -890,15 +826,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<235.0,313.0>--<236.0,115.0>> 
 
 	* And sterling (U+00A3): L<<419.0,343.0>--<261.0,344.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -1006,7 +934,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>> 
 
 	* And exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifTibetan[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifTibetan[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -1018,14 +946,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Black.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Bold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-ExtraLight.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Light.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Medium.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Regular.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-SemiBold.ttf', 'fonts/NotoSerifTibetan/googlefonts/ttf/NotoSerifTibetan-Thin.ttf', 'fonts/NotoSerifTibetan/googlefonts/variable-ttf/NotoSerifTibetan[wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1084,8 +1004,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 33 | 66 | 1100 | 62 | 871 | 0 |
-| 0% | 2% | 3% | 52% | 3% | 41% | 0% |
+| 3 | 13 | 66 | 1090 | 62 | 901 | 0 |
+| 0% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
